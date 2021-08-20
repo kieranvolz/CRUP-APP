@@ -26,14 +26,25 @@ function App() {
         <form>
           <label>
             <input type="text" name="name" placeholder="Search Todo's" />
-            <FaSearch 
-                          id="search-icon"
-                          className="titanium-white"
-            
-            />
+            <FaSearch id="search-icon" className="titanium-white" />
           </label>
         </form>
         <div className="dark-blue-underline"></div>
+
+        {/* you got some work to do below */}
+        <div className="grid">
+
+<div><FaEllipsisH /></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+        </div>
+        {/* end of grid */}
       </div>
     </div>
   );
