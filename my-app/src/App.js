@@ -1,10 +1,9 @@
 import './App.css';
-import React, { Component } from 'react';
+import React  from 'react';
 
 
 import { FaEllipsisH, FaSearch } from 'react-icons/fa';
 
-const element = <FaSearch className="titanium-white" />;
 function App() {
   return (
     <div>
@@ -20,9 +19,12 @@ function App() {
             </Tab>
           </Tabs>
         </div>
+        <div className="gradient-above-search"></div>
+
       </div>
 
       <div className="darker-blue">
+
         <form>
           <label>
             <input type="text" name="name" placeholder="Search Todo's" />
@@ -30,11 +32,26 @@ function App() {
           </label>
         </form>
         <div className="dark-blue-underline"></div>
+     
+<div className="scrollable">
+<div className="scroller-top-gradient"></div>
 
         {/* you got some work to do below */}
         <div className="grid">
 
-<div><FaEllipsisH /></div>
+<div><FaEllipsisH className="to-do-menu" /></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
 <div></div>
 <div></div>
 <div></div>
@@ -45,12 +62,15 @@ function App() {
 
         </div>
         {/* end of grid */}
+        </div>
+
       </div>
     </div>
   );
 }
 
-class Tabs extends React.Component {
+class Tabs  extends React.Component {
+// class Tabs  extends React {
   state = {
     activeTab: this.props.children[0].props.label
   };
