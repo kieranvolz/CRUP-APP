@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <div className="dark-blue">
-        <h2 className="titanium-white">ToDo's</h2>
+        <h1 className="titanium-white">ToDo's</h1>
         <FaEllipsisH           className="titanium-white main-menu" />
 
         <div className="tabs">
@@ -24,13 +24,14 @@ function App() {
       </div>
 
       <div className="darker-blue">
-
+<div className="center">
         <form>
           <label>
             <input type="text" name="name" placeholder="Search Todo's" />
             <FaSearch id="search-icon" className="titanium-white" />
           </label>
         </form>
+        </div>
         <div className="dark-blue-underline"></div>
      
 <div className="scrollable">
@@ -39,25 +40,30 @@ function App() {
         {/* you got some work to do below */}
         <div className="grid">
 
-<div><FaEllipsisH className="to-do-menu" /></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+        <div className="to-do-card">
+        <div className="checked-circle"></div>
+          <p>UI Design</p>
+          <div className="username-box">User: 1</div>
+            
+
+          <div className="to-do-menu">
+            <FaEllipsisH />
+            </div>
+            </div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
 
 
         </div>
