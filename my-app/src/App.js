@@ -13,9 +13,9 @@ function App() {
 
         <div className="tabs">
           <Tabs>
-            <Tab label="Open">
+            <Tab  label="Open">
             </Tab>
-            <Tab label="Closed">
+            <Tab  label="Closed">
             </Tab>
           </Tabs>
         </div>
@@ -43,6 +43,7 @@ function App() {
         <div className="to-do-card">
         <div className="checked-circle"></div>
           <p>UI Design</p>
+          <br />
           <div className="username-box">User: 1</div>
             
 
@@ -50,6 +51,11 @@ function App() {
             <FaEllipsisH />
             </div>
             </div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
+        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
         <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
         <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
         <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
@@ -111,7 +117,7 @@ const TabButtons = ({ buttons, changeTab, activeTab }) => {
       {buttons.map((button) => {
         return (
           <button
-            className={button === activeTab ? "active" : ""}
+            className={button === activeTab ? "active" : "not-active"}
             onClick={() => changeTab(button)}
           >
             {button}
