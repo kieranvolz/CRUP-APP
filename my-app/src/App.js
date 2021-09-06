@@ -42,13 +42,15 @@ function App() {
 
         <div className="to-do-card">
         <div className="checked-circle"></div>
-          <p>UI Design</p>
-          <br />
+          <div className="todo-text">UI Design</div>
+          
           <div className="username-box">User: 1</div>
             
 
-          <div className="to-do-menu">
+          <div className="to-do-menu tooltip">
             <FaEllipsisH />
+            <span class="tooltiptext">Tooltip text</span>
+
             </div>
             </div>
         <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
