@@ -2,14 +2,15 @@ import './App.css';
 import React  from 'react';
 
 
-import { FaEllipsisH, FaSearch } from 'react-icons/fa';
+import { FaEllipsisH, FaSearch, FaCheck} from 'react-icons/fa';
+
 
 function App() {
   return (
     <div>
       <div className="dark-blue">
         <h1 className="titanium-white">ToDo's</h1>
-        <FaEllipsisH           className="titanium-white main-menu" />
+        <FaEllipsisH className="titanium-white main-menu" />
 
         <div className="tabs">
           <Tabs>
@@ -42,11 +43,21 @@ function App() {
 
         <div className="to-do-card">
         <div className="checked-circle"></div>
+
+        {/* testing checkbox idea */}
+
+<div class="green customcb">
+  <input type="checkbox" value="1" id="customcb3" name="" />
+  <label class="inner" for="customcb3"></label>
+ </div>
+        {/* testing checkbox idea */}
+
+
           <div className="todo-text">UI Design</div>
           
-          <div className="username-box">User: 1</div>
+          {/* <div className="username-box">User: 1</div> */}
             
-
+            <FaCheck />
           <div className="to-do-menu tooltip">
             <FaEllipsisH />
             <span class="tooltiptext">Tooltip text</span>

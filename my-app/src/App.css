@@ -155,18 +155,51 @@ display: inline-flex;
   border-radius: 1em;
 }
 
-.checked-circle{
+/* .checked-circle{
   background-color: #3B3753;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin: -0.5em 1em 1em 1em;
+  overflow: hidden;
+} */
+
+
+/*texting checkbox idea*/
+
+.customcb {
+  margin: -0.5em 1em 1em 1em;
+  background: #3B3753;
+  border-radius: 50%;
+}
+.customcb label.inner {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+  cursor: pointer;
+  position: absolute;
+  background: #3B3753;
+}
+.customcb [type=checkbox] {
+  display: none
 }
 
+.green.customcb input[type=checkbox]:checked+label.inner {
+  background:#6ADD8A;
+}
+
+/* testing checkbox idea*/
+
+
 .todo-text {
-  display: block;
+  /* display: grid; */
   font-weight: 500;
-  margin: -0.5em 1em 1em 0em;
+  margin: -0.5em 1em 1em 3em;
   font-size: 0.9em;
 
 }
