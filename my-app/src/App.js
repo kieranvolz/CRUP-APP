@@ -46,44 +46,57 @@ function App() {
 
         {/* testing checkbox idea */}
 
-<div class="green customcb">
+<div class="customcb">
   <input type="checkbox" value="1" id="customcb3" name="" />
-  <label class="inner" for="customcb3"></label>
+ 
+
+  <label class="inner" for="customcb3">
+
+  <FaCheck className='check-icon' value="1"/>
+
+
+  </label>
+
+
+
  </div>
+
+
+
+
         {/* testing checkbox idea */}
 
 
-          <div className="todo-text">UI Design</div>
+          <div className="todo-text titanium-white">UI Design</div>
           
           {/* <div className="username-box">User: 1</div> */}
             
-            <FaCheck />
-          <div className="to-do-menu tooltip">
-            <FaEllipsisH />
-            <span class="tooltiptext">Tooltip text</span>
+          <div className="to-do-menu tooltip ">
+            <FaEllipsisH className='titanium-white'/>
+            <span class="tooltiptext">Edit ToDo</span>
 
             </div>
             </div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-        <div className="to-do-card"><div className="to-do-menu"><FaEllipsisH /></div></div>
-
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+            <div className="to-do-card"><div className="to-do-menu titanium-white"><FaEllipsisH /></div></div>
+       
 
         </div>
         {/* end of grid */}

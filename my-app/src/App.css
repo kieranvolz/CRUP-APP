@@ -5,7 +5,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  color: white;
+  /* color: white; */
  
 }
 
@@ -86,7 +86,7 @@ input:focus::placeholder {
 
 #search-icon {
   margin-left: -30px;
-  color: white;
+  color:white;
   background: none;
 }
 
@@ -167,6 +167,20 @@ display: inline-flex;
 
 /*texting checkbox idea*/
 
+
+.check-icon{
+  transform: scale(1.5);
+  margin: 1em 0em 0em 1em;
+z-index: 1;
+  color: #3B3753;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+
 .customcb {
   margin: -0.5em 1em 1em 1em;
   background: #3B3753;
@@ -189,9 +203,21 @@ display: inline-flex;
   display: none
 }
 
-.green.customcb input[type=checkbox]:checked+label.inner {
+.customcb input[type=checkbox]:checked+label.inner{
   background:#6ADD8A;
+  color: #fff;
 }
+ 
+
+
+
+
+
+
+
+
+
+
 
 /* testing checkbox idea*/
 
@@ -256,7 +282,7 @@ display: inline-flex;
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  /* border-bottom: 1px dotted black; */
 }
 
 .tooltip .tooltiptext {
