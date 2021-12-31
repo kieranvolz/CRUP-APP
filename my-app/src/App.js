@@ -47,10 +47,10 @@ function App() {
         {/* testing checkbox idea */}
 
 <div class="customcb">
-  <input type="checkbox" value="1" id="customcb3" name="" />
+  <input type="checkbox" value="1" id="customcb" name="" />
  
 
-  <label class="inner" for="customcb3">
+  <label class="inner" for="customcb">
 
   <FaCheck className='check-icon' value="1"/>
 
