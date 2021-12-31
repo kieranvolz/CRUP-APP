@@ -206,11 +206,10 @@ padding: 0.1em 0.5em;
 
 .customcb input[type=checkbox]:checked+label.inner{
   background:#6ADD8A;
+
 }
  
-.customcb input[type=checkbox]:checked+label.check-icon{
-  color: #fff;
-}
+
 
 
 
