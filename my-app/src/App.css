@@ -8,6 +8,8 @@
  
 }
 
+
+
 body {
 overflow-y: hidden;
 }
@@ -211,19 +213,8 @@ padding: 0.1em 0.5em;
  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .todo-text {
+  display: block;
   font-weight: 500;
   margin: -0.5em 1em 1em 3em;
   font-size: 0.9em;
@@ -281,27 +272,45 @@ padding: 0.1em 0.5em;
 }
 
 
-.tooltip {
-  position: relative;
+
+/*  everything below is a test for the dropdown  */
+
+
+
+
+ul li {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
+  position: relative;
+  margin: 1em;
+ 
 }
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
+ul ul {
+  display: none;
   position: absolute;
-  z-index: 1;
-}
+  background-color: #070417;
+  top: 25px;
+  right: -20px;
+  opacity: 80%;
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+  border-radius: 10px;
 }
+ul ul:after {
+  position: absolute;
+  right: 5%;
+  top: -8px;
+  width: 0;
+  height: 0;
+  content: '';
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #070417;
+  opacity: 80%;
 
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+li:hover ul {
+display:block;
+}

@@ -12,6 +12,13 @@ function App() {
         <h1 className="titanium-white">ToDo's</h1>
         <FaEllipsisH className="titanium-white main-menu" />
 
+
+
+
+
+
+
+
         <div className="tabs">
           <Tabs>
             <Tab  label="Open">
@@ -71,9 +78,18 @@ function App() {
           
           {/* <div className="username-box">User: 1</div> */}
             
-          <div className="to-do-menu tooltip ">
-            <FaEllipsisH className='titanium-white'/>
-            <span class="tooltiptext">Edit ToDo</span>
+          <div className="to-do-menu  ">
+            
+
+<ul>
+            <li>
+            <a href="#"><FaEllipsisH className='titanium-white'/></a>
+            <ul>
+                <li><a href="#">Edit ToDo</a></li>
+                <li><a href="#">Mark Completed</a></li>
+            </ul>
+        </li>
+    </ul>
 
             </div>
             </div>
