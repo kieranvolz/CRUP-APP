@@ -85,8 +85,8 @@ function App() {
             <li>
             <a href="#"><FaEllipsisH className='titanium-white'/></a>
             <ul>
-                <li><a href="#">Edit ToDo</a></li>
-                <li><a href="#">Mark Completed</a></li>
+                <li className='tooltip_link'><a href="#" >Edit ToDo</a></li>
+                <li className='tooltip_link'><a href="#" >Mark Completed</a></li>
             </ul>
         </li>
     </ul>

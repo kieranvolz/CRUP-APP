@@ -218,6 +218,8 @@ padding: 0.1em 0.5em;
   font-weight: 500;
   margin: -0.5em 1em 1em 3em;
   font-size: 0.9em;
+  /* overflow: hidden; */
+  white-space: nowrap;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -296,6 +298,7 @@ ul ul {
 }
 ul ul:after {
   position: absolute;
+  /* display: block; */
   right: 5%;
   top: -8px;
   width: 0;
@@ -305,12 +308,31 @@ ul ul:after {
   border-right: 20px solid transparent;
   border-bottom: 20px solid #070417;
   opacity: 80%;
-
+padding: auto;
 }
 a {
+  display: block;
   color: #fff;
   text-decoration: none;
 }
 li:hover ul {
 display:block;
+}
+
+.tooltip_link{
+  padding: 5px 20px 5px 20px;
+
+  /* padding:1em 3em; */
+
+  overflow: hidden;
+  white-space: nowrap;
+  /* text-align: center; */
+  /* display: block; */
+}
+
+.tooltip_link:hover{
+  background-color:rgba(255,255,255,0.5); /*where 0.5 stands for 50% opacity*/
+
+  border-radius: 10px;
+
 }
