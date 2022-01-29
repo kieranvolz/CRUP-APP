@@ -261,19 +261,30 @@ input:focus::placeholder {
 /*  everything below is a test for the dropdown  */
 
 ul li {
-  display: inline-block;
+  display: block;
   position: relative;
-  margin: 1em;
+  margin: 1em 1em 1em  -3em;
+ /* text-align: left; */
+ padding: auto;
+ /* top: 5px; */
 }
 ul ul {
   display: none;
   position: absolute;
   background-color: #070417;
+
+
+  /* background-color: green;  */
+  /*i put this here to see 
+  what i'm playing around with*/
+
   top: 25px;
   right: -20px;
   opacity: 80%;
 
   border-radius: 10px;
+  width: 6em;
+  z-index: 1;
 }
 ul ul:after {
   position: absolute;
@@ -291,7 +302,7 @@ ul ul:after {
 }
 a {
   display: block;
-  color: #fff;
+  /* color: #fff; */
   text-decoration: none;
 }
 li:hover ul {
@@ -300,26 +311,15 @@ li:hover ul {
 
 .tooltip_link {
   padding: 5px 20px 5px 20px;
-
-  /* padding:1em 3em; */
-
   overflow: hidden;
   white-space: nowrap;
-  /* text-align: center; */
-  /* display: block; */
-
-
+ font-size: 10px;
+ /* color: red;forgot why i can't change the color on the fly */
+ color: #6BDD8A;
+ text-decoration: none
 }
 
 .tooltip_link:hover {
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.5
-
-  ); /*where 0.5 stands for 50% opacity*/
-
-
-  border-radius: 10px;
+  color:white;  /*not sure why this won't work*/
+  
 }
