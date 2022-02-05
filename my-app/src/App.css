@@ -84,7 +84,8 @@ input:focus::placeholder {
 }
 
 #search-icon {
-  margin-left: -30px;
+  margin-left: -35px;
+  margin-bottom: -2.5px;
   color: white;
   background: none;
 }
@@ -186,6 +187,7 @@ input:focus::placeholder {
 }
 .customcb label.inner {
   padding-top: 0.5em;
+  margin-left: 0.5em;
   border-radius: 50%;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -198,10 +200,12 @@ input:focus::placeholder {
 
 .customcb [type="checkbox"] {
   display: none;
+  color: red;
 }
 
 .customcb input[type="checkbox"]:checked + label.inner {
   background: #6add8a;
+  margin-left: 0.5em;
 }
 
 .todo-text {
@@ -231,7 +235,7 @@ input:focus::placeholder {
 
 .to-do-menu {
   transform: scale(1.3);
-  margin: auto 1em auto auto;
+  margin:  -0.5em -0.5em auto auto;
 }
 
 ::-webkit-scrollbar {
@@ -280,7 +284,7 @@ ul ul {
 
   top: 25px;
   right: -2.5px;
-  opacity: 80%;
+  opacity: 90%;
 
   border-radius: 10px;
   width: 6em;
@@ -297,7 +301,7 @@ ul ul:after {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 20px solid #070417;
-  opacity: 80%;
+  opacity: 90%;
   padding: auto;
 }
 a {
@@ -327,7 +331,7 @@ li:hover ul {
 
 
 
-a {
+li > a {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
   transition: 0.6s;
