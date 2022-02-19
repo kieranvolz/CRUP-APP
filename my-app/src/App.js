@@ -21,7 +21,7 @@ function App() {
         <div className="center">
           <form>
             <label>
-              <input type="text" name="name" placeholder="Search Todo's" />
+              <input type="text" name="name" placeholder="Search Todo's" autocomplete="off"/>
               <FaSearch id="search-icon" className="titanium-white" />
             </label>
           </form>
