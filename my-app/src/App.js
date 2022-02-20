@@ -3,10 +3,22 @@ import React from "react";
 import { FaEllipsisH, FaSearch, FaCheck } from "react-icons/fa";
 function App() {
   return (
-    <div>
+   
+   
+   
+   <div>
+
+      
       <div className="dark-blue">
         <h1 className="titanium-white">ToDo's</h1>
         <FaEllipsisH className="titanium-white main-menu" />
+
+                  <button type="submit" 
+          /*I need to figure out the right place 
+          to put this to avoid conflicting styles*/
+          className="add-todo-button"></button>
+
+
 
         <div className="tabs">
           <Tabs>
@@ -27,17 +39,21 @@ function App() {
           </form>
         </div>
         <div className="dark-blue-underline"></div>
-
+        
         <div className="scrollable">
           <div className="scroller-top-gradient"></div>
 
-          {/* you got some work to do below */}
+
+
+          {/* beginning of grid */}
+
+
           <div className="grid">
+
+              {/* testing card component */}
+
             <div className="to-do-card">
               <div className="checked-circle"></div>
-
-              {/* testing checkbox idea */}
-
               <div class="customcb">
                 <input type="checkbox" value="1" id="customcb" name="" />
 
@@ -45,13 +61,44 @@ function App() {
                   <FaCheck className="check-icon" value="1" />
                 </label>
               </div>
-
               {/* testing checkbox idea */}
-
               <div className="todo-text titanium-white">UI Design</div>
-
               {/* <div className="username-box">User: 1</div> */}
+              <div className="to-do-menu  ">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <FaEllipsisH className="titanium-white" />
+                    </a>
+                    <ul>
+                      <li className="tooltip_link">
+                        <a href="#">Edit ToDo</a>
+                      </li>
+                      <li className="tooltip_link">
+                        <a href="#">Mark Completed</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
+                          {/* end of card component */}
+
+          
+          
+                          <div className="to-do-card">
+              <div className="checked-circle"></div>
+              <div class="customcb">
+                <input type="checkbox" value="1" id="customcb" name="" />
+
+                <label class="inner" for="customcb">
+                  <FaCheck className="check-icon" value="1" />
+                </label>
+              </div>
+              {/* testing checkbox idea */}
+              <div className="todo-text titanium-white">UI Design</div>
+              {/* <div className="username-box">User: 1</div> */}
               <div className="to-do-menu  ">
                 <ul>
                   <li>
@@ -71,105 +118,141 @@ function App() {
               </div>
             </div>
             <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
+              <div className="checked-circle"></div>
+              <div class="customcb">
+                <input type="checkbox" value="1" id="customcb" name="" />
+
+                <label class="inner" for="customcb">
+                  <FaCheck className="check-icon" value="1" />
+                </label>
+              </div>
+              {/* testing checkbox idea */}
+              <div className="todo-text titanium-white">UI Design</div>
+              {/* <div className="username-box">User: 1</div> */}
+              <div className="to-do-menu  ">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <FaEllipsisH className="titanium-white" />
+                    </a>
+                    <ul>
+                      <li className="tooltip_link">
+                        <a href="#">Edit ToDo</a>
+                      </li>
+                      <li className="tooltip_link">
+                        <a href="#">Mark Completed</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
+              <div className="checked-circle"></div>
+              <div class="customcb">
+                <input type="checkbox" value="1" id="customcb" name="" />
+
+                <label class="inner" for="customcb">
+                  <FaCheck className="check-icon" value="1" />
+                </label>
+              </div>
+              {/* testing checkbox idea */}
+              <div className="todo-text titanium-white">UI Design</div>
+              {/* <div className="username-box">User: 1</div> */}
+              <div className="to-do-menu  ">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <FaEllipsisH className="titanium-white" />
+                    </a>
+                    <ul>
+                      <li className="tooltip_link">
+                        <a href="#">Edit ToDo</a>
+                      </li>
+                      <li className="tooltip_link">
+                        <a href="#">Mark Completed</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
+              <div className="checked-circle"></div>
+              <div class="customcb">
+                <input type="checkbox" value="1" id="customcb" name="" />
+
+                <label class="inner" for="customcb">
+                  <FaCheck className="check-icon" value="1" />
+                </label>
+              </div>
+              {/* testing checkbox idea */}
+              <div className="todo-text titanium-white">UI Design</div>
+              {/* <div className="username-box">User: 1</div> */}
+              <div className="to-do-menu  ">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <FaEllipsisH className="titanium-white" />
+                    </a>
+                    <ul>
+                      <li className="tooltip_link">
+                        <a href="#">Edit ToDo</a>
+                      </li>
+                      <li className="tooltip_link">
+                        <a href="#">Mark Completed</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
+              <div className="checked-circle"></div>
+              <div class="customcb">
+                <input type="checkbox" value="1" id="customcb" name="" />
+
+                <label class="inner" for="customcb">
+                  <FaCheck className="check-icon" value="1" />
+                </label>
+              </div>
+              {/* testing checkbox idea */}
+              <div className="todo-text titanium-white">UI Design</div>
+              {/* <div className="username-box">User: 1</div> */}
+              <div className="to-do-menu  ">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <FaEllipsisH className="titanium-white" />
+                    </a>
+                    <ul>
+                      <li className="tooltip_link">
+                        <a href="#">Edit ToDo</a>
+                      </li>
+                      <li className="tooltip_link">
+                        <a href="#">Mark Completed</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
             </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
-            <div className="to-do-card">
-              <div className="to-do-menu titanium-white">
-                <FaEllipsisH />
-              </div>
-            </div>
+          
           </div>
           {/* end of grid */}
+
+
         </div>
       </div>
+
+
+
     </div>
+
+
+
+
+
   );
 }
 
@@ -224,13 +307,27 @@ const Tab = (props) => {
   return <React.Fragment>{props.children}</React.Fragment>;
 };
 
+
+
+
+
+
+
+
+
 export default App;
 
 
 
 
-{/* check out this link for fixing the dropdown menu
+{/* 
 
-  https://codepen.io/ig_design/pen/MWKVrNR?editors=1100
+  how to make circle button
+
+  https://codepen.io/penny1119/pen/xENWYq?editors=0110
+
+
+
+
 
 */}
