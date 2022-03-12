@@ -14,9 +14,19 @@ function App() {
         <FaEllipsisH className="titanium-white main-menu" />
 
                   <button type="submit" 
-          /*I need to figure out the right place 
-          to put this to avoid conflicting styles*/
-          className="add-todo-button"></button>
+  /*  
+    I need to figure out the how to
+      make a fly up model using this url as a study guide
+      https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_bottom
+      https://mui.com/components/modal/ 
+  */
+
+
+className="add-todo-button"></button>
+
+
+
+
 
 
 
