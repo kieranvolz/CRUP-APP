@@ -13,7 +13,9 @@ function App() {
         <h1 className="titanium-white">ToDo's</h1>
         <FaEllipsisH className="titanium-white main-menu" />
 
-                  <button type="submit" 
+                  
+
+        <button type="submit" 
   /*  
     I need to figure out the how to
       make a fly up model using this url as a study guide
@@ -24,9 +26,24 @@ function App() {
 
 className="add-todo-button"></button>
 
+{/* found a way to make a modal using css only but it conflict with current styles
+need to check through both before adding
+https://codepen.io/timothylong/pen/AJxrPR */}
 
-
-
+{/* <div className="container">
+  <div className="interior">
+    <a className="btn" href="#open-modal">👋 Basic CSS-Only Modal</a>
+  </div>
+</div>
+<div id="open-modal" className="modal-window">
+  <div>
+    <a href="#" title="Close" className="modal-close">Close</a>
+    
+    <div>A CSS-only modal based on the :target pseudo-class. Hope you find it helpful.</div>
+    <div><small>Check out</small></div>
+    <a href="https://aminoeditor.com" target="_blank">👉 Amino: Live CSS Editor for Chrome</a>
+    </div>
+</div> */}
 
 
 
@@ -252,12 +269,24 @@ className="add-todo-button"></button>
           {/* end of grid */}
 
 
+
+
+      
+
+
+
         </div>
       </div>
 
 
 
     </div>
+
+
+
+
+
+
 
 
 
@@ -330,14 +359,3 @@ export default App;
 
 
 
-{/* 
-
-  how to make circle button
-
-  https://codepen.io/penny1119/pen/xENWYq?editors=0110
-
-
-
-
-
-*/}

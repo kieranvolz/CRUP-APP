@@ -377,3 +377,39 @@ z-index: 2;
 /*
 trying something
 */
+
+/* a {
+  color: inherit;
+} */
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-window 
+   > div {
+    border-radius: 1rem;
+  }
+
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+small {
+  color: lightgray;
+}
+
+.btn {
+  background-color: white;
+  padding: 1em 1.5em;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+i {
+  padding-right: 0.3em;
+}
